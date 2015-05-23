@@ -2,7 +2,7 @@
 training.plone.org
 ==================
 
-`Sphinx <http://sphinx-doc.org/>`_ based landing page for `http://training.plone.org <http://training.plone.org>`_ .
+`Sphinx <http://sphinx-doc.org/>`_ based landing page for `http://training.plone.org <http://training.plone.org>`_.
 
 
 Documentation
