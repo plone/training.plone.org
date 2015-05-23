@@ -1,0 +1,3 @@
+Sphinx
+sphinxcontrib.gist
+sphinxcontrib-spelling
