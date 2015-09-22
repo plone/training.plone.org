@@ -1,0 +1,21 @@
+# sudo;false make sure tahat we run on the new travis container infra
+sudo: false
+language: python
+
+addons:
+  apt:
+    packages:
+    - enchant
+
+python:
+  - "2.7"
+# command to install dependencies
+install:
+   - "pip install -q -r requirements.txt --use-mirrors"
+
+# test if docs are building
+script: sphinx-build -nW -b html -d _build/doctrees . _build/html
+# Flags used here, not in `make html`:
+#  -n   Run in nit-picky mode. Currently, this generates warnings for all missing references.
+#  -W   Turn warnings into errors. This means that the build stops at the first warning and sphinx-build exits with exit status 1
+
