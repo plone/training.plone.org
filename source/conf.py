@@ -39,6 +39,10 @@ extensions = [
 # define gravatar users
 gravatar_users = (
         ('pbauer', {'email': 'bauer@starzel.de' }),
+        ('smcmahon', {'email': 'steve@dcn.org'  }),
+        ('do3cc', {'email': 'do3ccqrv@googlemail.com'  }),
+        ('Gomez', {'email': 'mail@steffen-lindner.de'  }),
+        ('macagua', {'email': 'leonardocaballero@gmail.com' }),    
 )
 
 # Add any paths that contain templates here, relative to this directory.
