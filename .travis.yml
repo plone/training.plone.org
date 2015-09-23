@@ -19,5 +19,5 @@ before_install:
 
 after_success:
 - chmod 600 deploy-key
-- mv deploy-key ~/.ssh/id_rsa
-- rsync -avz -e 'ssh -i .ssh/id_rsa' foobar2.txt docs-update@docs.plone.org:/home/docs-update
+- mv deploy-key /home/travis/.ssh/id_rsa
+- rsync -avz -e 'ssh -i /home/travis/.ssh/id_rsa' foobar2.txt docs-update@docs.plone.org:/home/docs-update
