@@ -9,7 +9,7 @@ python:
 install:
 - pip install -q -r requirements.txt --use-mirrors
 
-#script: sphinx-build -nW -b html -d _build/doctrees . _build/html
+script: sphinx-build -nW -b html -d _build/doctrees . _build/html
 
 before_install:
 - echo -e "docs.plone.org\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
