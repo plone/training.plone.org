@@ -19,7 +19,7 @@ before_install:
 
 after_success:
 - chmod 600 deploy-key
-- mkdir .ssh
-- chmod 700 .ssh
+- mkdir -p /home/travis/.ssh
+- chmod 700 /home/travis/.ssh
 - mv deploy-key /home/travis/.ssh/id_rsa
 - rsync -avz -e 'ssh -i /home/travis/.ssh/id_rsa' foobar2.txt docs-update@docs.plone.org:/home/docs-update
