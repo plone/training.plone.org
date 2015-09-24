@@ -39,11 +39,11 @@ extensions = [
 
 # define gravatar users
 gravatar_users = (
-        ('pbauer', {'email': 'bauer@starzel.de' }),
-        ('smcmahon', {'email': 'steve@dcn.org'  }),
-        ('do3cc', {'email': 'do3ccqrv@googlemail.com'  }),
-        ('Gomez', {'email': 'mail@steffen-lindner.de'  }),
-        ('macagua', {'email': 'leonardocaballero@gmail.com' }),
+        ('pbauer', {'email': 'bauer@starzel.de','target': "https://github.com/pbauer" }),
+        ('smcmahon', {'email': 'steve@dcn.org','target': "https://github.com/smcmahon"  }),
+        ('do3cc', {'email': 'do3ccqrv@googlemail.com','target': "https://github.com/do3cc"  }),
+        ('Gomez', {'email': 'mail@steffen-lindner.de', 'target': "https://github.com/Gomez"  }),
+        ('macagua', {'email': 'leonardocaballero@gmail.com','target': "https://github.com/macagua" }),
 )
 
 # This is our wordlist with know words, like Github or Plone ...
