@@ -14,9 +14,17 @@ If you want to inquire the original authors about organizing a training please c
 Trainings
 ---------
 
-`Plone 4 Training <http://training.plone.org/4>`_
+Plone 5
+~~~~~~~
 
 `Plone 5 Training <http://training.plone.org/5>`_
+
+Plone 4
+~~~~~~~
+
+`Plone 4 Training <http://training.plone.org/4>`_
+
+_
 
 
 
