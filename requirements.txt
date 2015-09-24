@@ -2,5 +2,4 @@ Sphinx
 sphinxcontrib.gist
 sphinxcontrib-spelling
 sphinxcontrib-gravatar
-sphinxcontrib-spelling
 pyenchant
