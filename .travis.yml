@@ -26,4 +26,4 @@ after_success:
 - eval "$(ssh-agent)"
 - chmod 600 $HOME/.ssh/id_rsa
 - ssh-add $HOME/.ssh/id_rsa
-- rsync -avz --delete -e 'ssh -i /home/travis/.ssh/id_rsa' build/html docs-update@docs.plone.org:/var/www/training.plone.org
+- rsync -avz --delete -e 'ssh -i /home/travis/.ssh/id_rsa' build/html/ docs-update@docs.plone.org:/var/www/training.plone.org/base
