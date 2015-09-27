@@ -24,7 +24,7 @@ Installation
 
 	$ git clone https://github.com/plone/training.plone.org
 	$ cd training.plone.org
-	$ virtualenv --python=pyhthon2.7 .
+	$ virtualenv --python=python2.7 .
 	$ pip install -r requirements.txt
 
 Contribute
