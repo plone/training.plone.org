@@ -39,12 +39,14 @@ extensions = [
 
 # define gravatar users
 gravatar_users = (
-        ('pbauer', {'email': 'bauer@starzel.de','target': "https://github.com/pbauer" }),
-        ('smcmahon', {'email': 'steve@dcn.org','target': "https://github.com/smcmahon"  }),
-        ('do3cc', {'email': 'do3ccqrv@googlemail.com','target': "https://github.com/do3cc"  }),
-        ('Gomez', {'email': 'mail@steffen-lindner.de', 'target': "https://github.com/Gomez"  }),
-        ('macagua', {'email': 'leonardocaballero@gmail.com','target': "https://github.com/macagua" }),
-        ('fulv', {'email': 'fulviocasali@gmail.com','target': "https://github.com/fulv"  }),
+    ('pbauer', {'email': 'bauer@starzel.de', 'target': "https://github.com/pbauer"}),
+    ('smcmahon', {'email': 'steve@dcn.org', 'target': "https://github.com/smcmahon"}),
+    ('do3cc', {'email': 'do3ccqrv@googlemail.com', 'target': "https://github.com/do3cc"}),
+    ('Gomez', {'email': 'mail@steffen-lindner.de', 'target': "https://github.com/Gomez"}),
+    ('macagua', {'email': 'leonardocaballero@gmail.com', 'target': "https://github.com/macagua"}),
+    ('fulv', {'email': 'fulviocasali@gmail.com', 'target': "https://github.com/fulv"}),
+    ('thet', {'email': 'thetetet@gmail.com', 'target': "https://github.com/thet"}),
+    ('frapell', {'email': 'frapell@gmail.com', 'target': "https://github.com/frapell"}),
 )
 
 # This is our wordlist with know words, like Github or Plone ...
