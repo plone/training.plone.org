@@ -43,3 +43,8 @@ Johannes Raggam
 
 Franco Pellegrini
     Franco Pellegrini is a software developer from Cordoba, Argentina. He started developing Plone in 2005 in a small software company, and as an independent contractor since 2011. He believes in free software philosophy, and so, he has been a Plone core developer since 2010 and Framework Team member since 2012.
+
+.. gravatar:: fredvd
+
+Fred van Dijk
+    Fred, from Rotteradm the Netherlands, has been exposed to Plone early on while still working at a sales/marketing officewhere he implemented several Plone sites in different countries. In 2007 he joined Zest Software to work on and with Plone and Open Source in general full time. He likes to help out on the business side of things, helping users decide on which features are most valuable to develop or when to stick with standard functionality. He also gives training on using and administering the CMS. On the IT side he has enough technical knowledge to work on code, system administration and spart with the developers what the customers want.
