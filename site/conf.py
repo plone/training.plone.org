@@ -48,7 +48,7 @@ gravatar_users = (
     ('thet', {'email': 'thetetet@gmail.com', 'target': "https://github.com/thet"}),
     ('frapell', {'email': 'frapell@gmail.com', 'target': "https://github.com/frapell"}),
     ('fredvd', {'email': 'fredvd@gmail.com', 'target': "https://github.com/fredvd"}),
-
+    ('simahawk', {'email': 'simahawk@gmail.com', 'target': "https://github.com/simahawk"}),
 )
 
 # This is our wordlist with know words, like Github or Plone ...

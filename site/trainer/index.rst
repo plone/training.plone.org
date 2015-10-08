@@ -48,3 +48,8 @@ Franco Pellegrini
 
 Fred van Dijk
     Fred, from Rotteradm the Netherlands, has been exposed to Plone early on as a user. In 2007 he joined Zest Software to work on and with Plone and Python web apps full time. He can focus on the business side, helping users decide on which features are most valuable to develop or when to stick with standard functionality. He also gives training on using and administering the CMS. On the IT side he has plenty technical knowledge to work on code, system administration and do project management in a team of developers.
+
+.. gravatar:: simahawk
+
+Simone Orsi
+    Simone, from Rome, works at Abstract with Python techonology, mainly Plone, Django, Pyramid and Odoo. In 2008 he fell in love with Plone and he is Plone Core Contributor since 2010.
