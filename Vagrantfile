@@ -3,7 +3,8 @@
 
 
 Vagrant.configure("2") do |config|
-    config.vm.box = "debian/jessie64"
+    config.vm.box = "fedora-23-cloud"
+    config.vm.box_url = "http://fedora.inode.at/releases/23/Cloud/x86_64/Images/Fedora-Cloud-Base-Vagrant-23-20151030.x86_64.vagrant-virtualbox.box"
 
     config.vm.network "private_network", ip: "192.168.60.10"
     config.vm.network "forwarded_port", guest: 80, host: 8080

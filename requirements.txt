@@ -1,5 +1,0 @@
-Sphinx
-sphinxcontrib.gist
-sphinxcontrib-spelling
-sphinxcontrib-gravatar
-pyenchant
