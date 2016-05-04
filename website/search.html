@@ -1,0 +1,34 @@
+---
+layout: section
+title: Search
+category-name: search
+description: Search training.plone.org landing page
+---
+
+<div id="headline-search">
+  <form class="input-group" id="search" action="/search.html" method="get" style="position: relative; width: auto;">
+    <input type="text" id="search-query" class="form-control" name="q" placeholder="Search" autocomplete="off" style="position: relative;">
+    <span class="input-group-btn">
+      <button class="btn btn-default glyphicon glyphicon-search" type="submit" aria-hidden="true"></button>
+    </span>
+  </form>
+</div>
+
+<div class="panel panel-default">
+  <section id="search-results">
+    <div class="entries" style="font-size: 15px; display: block; position: static; padding: 0; margin: 0; border: 0; width: 100%;">
+    </div>
+  </section>
+</div>
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article style="padding: 0; margin: 0;">
+      <h3>
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+{% endraw %}
