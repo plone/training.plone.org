@@ -1,0 +1,18 @@
+---
+layout: section
+highlight_section: trainer
+title: Trainer
+description: About trainer.
+section: trainer
+category-name: trainer
+attribution: Minotaur Rocket Launch at NASA Wallops by NASA Goddard Space Flight Center on Flickr, CC-BY-2.0
+photo-link: https://www.flickr.com/photos/gsfc/5890869490/
+---
+<div class="row">
+  {% for p in site.pages %}
+  {% if p.section == "trainer" %}
+    {% include content-link-panel.html %}
+  {% endif %}
+  {% endfor %}
+</div>
+ 
