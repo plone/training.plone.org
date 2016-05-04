@@ -12,8 +12,7 @@ PACKAGES="ruby-devel zlib-devel libxml2-devel libxslt-devel redhat-rpm-config pa
 sudo dnf install $PACKAGES -y
 
 # We need at least Jekyll 3.0 because of hooking rss.py script into the build itself
-# but beta release because of compatibility with jekyll-lunr-js-search
-# plugin, see https://github.com/slashdotdash/jekyll-lunr-js-search/pull/85
+# see https://github.com/slashdotdash/jekyll-lunr-js-search/pull/85
 gem uninstall jekyll || :
 gem install jekyll --version 3.1.3
 gem install nokogiri -- --use-system-libraries
