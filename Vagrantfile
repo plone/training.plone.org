@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     config.vm.network "forwarded_port", guest: 80, host: 8080
     config.vm.hostname = "training"
 
-    #config.vm.synced_folder "planet/", "/srv/venus/planet.plone.org"
+    config.vm.synced_folder "website/", "/home/vagrant/website"
 
     config.vm.provider "virtualbox" do |vb|
         vb.customize ["modifyvm", :id, "--ioapic", "on"  ]
