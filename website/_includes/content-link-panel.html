@@ -1,0 +1,22 @@
+<div class="col-sm-6">
+  <a class="panel-link" href="{{ p.url }}">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="media">
+          <div class="media-left">
+            <img style="height:100px" src="{{ p.subsection | subsection_logo }}">
+          </div>
+          <div class="media-body">
+            <h3>
+              {{ p.title }}
+            </h3>
+            {% if p.label == "need-help" %}
+            <small><span class="label label-default" style="background-color: #159818"> Help Needed </span></small>
+            {% endif %}
+            <p>{{ p.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,128 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$fedora-dark-blue: #294172;
+$fedora-blue:      #3c6eb4;
+
+// Bootstrap widths
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-sm-max: ($screen-md-min - 1);
+$screen-md-max: ($screen-lg-min - 1);
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+// Responsive styles fixes
+@media all and (max-width: 1100px) {
+  nav .nav {
+    // Avoid collision with the logo
+    clear: both;
+    padding-left: 10px;
+    // Keep the navigation items in one line
+    li { float: left; }
+  }
+  #search {
+    // Leave some space between the input and headlines
+    margin-bottom: 20px;
+  }
+  .entries {
+    width: calc(100% - 30px);
+    right: none;
+    left: 15px;
+  }
+}
+@media all and (max-width: 768px) {
+  .entries {
+    top: 34px;
+  }
+  .carousel .headlines img {
+    width: 250px;
+  }
+}
+@media all and (min-width: 781px) {
+  // Make carrousel height the same for all items
+  .carousel .headlines {
+    min-height: 290px;
+  }
+}
+@media all and (min-width: 1100px) {
+  #search {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    z-index: 10;
+    width: 288px;
+  }
+  // Make carrousel height the same for all items
+  .carousel .headlines {
+    min-height: 240px;
+  }
+}
+@media all and (max-width: 780px) {
+  // Reset margin so we don't get horizontal scrollbar
+  body .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #headlines {
+    text-align: center;
+    padding: 10px;
+  }
+  #headline-search {
+    width: 100%;
+  }
+  // Increase carrousel height
+  .headlines {
+    min-height: 440px;
+  }
+  .headlines {
+    h2, p { margin-left: 50px; }
+  }
+}
