@@ -11,4 +11,4 @@ $ jekyll serve --force_polling -H 0.0.0.0
 
 ^^ mase makefile/script for that
 
-browse to http://192.168.60.10:4000/
+browse to http://127.0.0.1:4000/
