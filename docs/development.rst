@@ -9,6 +9,6 @@ $ vagrant ssh
 $ cd website
 $ jekyll serve --force_polling -H 0.0.0.0
 
-^^ mase makefile/script for that
+^^ make makefile/script for that
 
 browse to http://127.0.0.1:4000/
