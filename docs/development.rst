@@ -2,6 +2,16 @@
 Develoment
 ==========
 
+Dependencies
+============
+
+Vagrant
+-------
+
+- https://github.com/dotless-de/vagrant-vbguest
+
+
+
 braind dump, needs rewrite :)
 
 $ vagrant up
