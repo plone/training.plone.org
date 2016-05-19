@@ -3,6 +3,5 @@ _site
 .swp
 *.swp
 .DS_Store
-content
 .vagrant
 .jekyll-metadata
