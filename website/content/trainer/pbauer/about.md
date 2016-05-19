@@ -1,30 +1,16 @@
 ---
 title: Philip Bauer
-subsection: trainer
+subsection: pbauer
 section: trainer
-description: The following trainers have given trainings
+description: Philip Bauer is a web developer from Munich
 ---
 
-# Docker
+# Philip Bauer
 
-[Docker](https://www.docker.com) is a platform for developers and sysadmins to develop, ship, and run applications inside software containers. Docker lets you quickly assemble applications from components and eliminates the friction that can come when shipping code. Docker will also help you to get your code tested and deployed into production as fast as possible.
+Philip Bauer is a web developer from Munich who fell in love with Plone in 2005 and since then works almost exclusively with Plone.
 
-See also [Frequently Asked Questions (FAQ)](http://docs.docker.com/misc/faq).
+A historian by education he drifted towards creating websites in the 90’s and founded the company [Starzel.de](http://starzel.de) in 2000.
+He is a member of the [Plone Foundation](https://plone.org/foundation), loves teaching and is dedicated to Open Source.
 
-## Getting started with Docker
+Among other Plone-related projects he started creating the Mastering Plone Training so that everyone can become a Plone-Developer.
 
-To install and run Docker read these [installation instructions and tips](/tools/docker/docker-installation.html)
-
-## Basic usage
-
-To know how to run a container from the existing image or how to create you own image see [Docker basics](/tools/docker/docker-usage.html).
-
-To find out more about container composition read about [Docker Compose](/tools/docker/compose.html).
-
-## Configuring Docker
-
-For instructions how to configure the Docker engine see [configuring Docker](/tools/docker/docker-configuration.html).
-
-## Featured images
-
-Find out about [released images](/tools/docker/docker-images.html).
