@@ -1,30 +1,9 @@
 ---
 title: Johannes Raggam
-subsection: trainer
+subsection: jraggam
 section: trainer
-description: The following trainers have given trainings
+description: Johannes Raggam is from Graz/Austria
 ---
 
-# Docker
-
-[Docker](https://www.docker.com) is a platform for developers and sysadmins to develop, ship, and run applications inside software containers. Docker lets you quickly assemble applications from components and eliminates the friction that can come when shipping code. Docker will also help you to get your code tested and deployed into production as fast as possible.
-
-See also [Frequently Asked Questions (FAQ)](http://docs.docker.com/misc/faq).
-
-## Getting started with Docker
-
-To install and run Docker read these [installation instructions and tips](/tools/docker/docker-installation.html)
-
-## Basic usage
-
-To know how to run a container from the existing image or how to create you own image see [Docker basics](/tools/docker/docker-usage.html).
-
-To find out more about container composition read about [Docker Compose](/tools/docker/compose.html).
-
-## Configuring Docker
-
-For instructions how to configure the Docker engine see [configuring Docker](/tools/docker/docker-configuration.html).
-
-## Featured images
-
-Find out about [released images](/tools/docker/docker-images.html).
+# Johannes Raggam
+Johannes Raggam from Graz/Austria works most of the time with a technology stack based around Python, Plone, Pyramid and Javascript. As an active Open Source / Free Software developer he believes in the power of collaborative work. He is a BlueDynamics Alliance Partner and Plone Core Contributor since 2009, a member of the Plone Framework Team since 2012 and Plone Foundation member.
