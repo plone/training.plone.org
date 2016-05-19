@@ -66,11 +66,11 @@ defaults:
       category-name: start
   -
     scope:
-      path: "content/tools"
+      path: "content/trainer"
       type: "pages"
     values:
-      highlight_section: "tools"
-      category-name: tools
+      highlight_section: "trainer"
+      category-name: trainer
   -
     scope:
       path: "content/tech"
@@ -85,8 +85,8 @@ defaults:
     values:
       highlight_section: "deployment"
       category-name: deploy
-      attribution: Minotaur Rocket Launch at NASA Wallops by NASA Goddard Space Flight Center on Flickr, CC-BY-2.0
-      photo-link: https://www.flickr.com/photos/gsfc/5890869490/
+      #attribution: Minotaur Rocket Launch at NASA Wallops by NASA Goddard Space Flight Center on Flickr, CC-BY-2.0
+      #photo-link: https://www.flickr.com/photos/gsfc/5890869490/
   -
     scope:
       path: "content/blabla.md"
