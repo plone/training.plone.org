@@ -1,6 +1,9 @@
 #!/bin/bash
 # This script is used by vagrant to setup the test box
 
+# Run update
+sudo dnf upgrade -y
+
 # Run group install
 sudo dnf group install "C Development Tools and Libraries" -y
 
