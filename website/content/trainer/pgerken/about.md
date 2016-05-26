@@ -1,6 +1,6 @@
 ---
 title: Patrick Gerken
-subsection: trainer
+subsection: pgerken
 section: trainer
 description: The following trainers have given trainings
 ---
