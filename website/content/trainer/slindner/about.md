@@ -1,6 +1,6 @@
 ---
 title: Steffen Lindner
-subsection: trainer
+subsection: slindner
 section: trainer
 description: The following trainers have given trainings
 ---
