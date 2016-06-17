@@ -2,29 +2,15 @@
 title: Patrick Gerken
 subsection: pgerken
 section: trainer
-description: The following trainers have given trainings
+description: Patrick is long time software developer.
 ---
 
-# Docker
+# Patrick Gerken
 
-[Docker](https://www.docker.com) is a platform for developers and sysadmins to develop, ship, and run applications inside software containers. Docker lets you quickly assemble applications from components and eliminates the friction that can come when shipping code. Docker will also help you to get your code tested and deployed into production as fast as possible.
+Patrick is long time software [Zope](http://www.zope.org/) developer how tried very long to avoid [Plone](https://plone.org) to work with everything else [Zope](http://www.zope.org/) based.
 
-See also [Frequently Asked Questions (FAQ)](http://docs.docker.com/misc/faq).
+After there wasn't much non [Plone](https://plone.org) development left in Zope land he got thoroughly introduced to [Plone](https://plone.org) at [Syslab](https://www.syslab.com/homepage/) and [Starzel.de](http://starzel.de).
 
-## Getting started with Docker
+At the later company he got tricked by Philip into co-writing the comprehensive [Training](https://training.plone.org) manual we have now.
 
-To install and run Docker read these [installation instructions and tips](/tools/docker/docker-installation.html)
-
-## Basic usage
-
-To know how to run a container from the existing image or how to create you own image see [Docker basics](/tools/docker/docker-usage.html).
-
-To find out more about container composition read about [Docker Compose](/tools/docker/compose.html).
-
-## Configuring Docker
-
-For instructions how to configure the Docker engine see [configuring Docker](/tools/docker/docker-configuration.html).
-
-## Featured images
-
-Find out about [released images](/tools/docker/docker-images.html).
+Patrick now lives in beautiful Austria and hasn't given many trainings lately.
