@@ -1,0 +1,52 @@
+---
+layout: section
+highlight_section: training
+title: Overview
+description: Pick a training
+section: training
+category-name: training
+---
+<div class="row">
+  <div class="col-sm-12">
+    <h2> Content management </h2>
+  </div>
+  {% for p in site.pages %}
+  {% if p.section == "start-sw" %}
+    {% include content-link-panel.html %}
+  {% endif %}
+  {% endfor %}
+  <div class="col-sm-12">
+    <h2> Theming </h2>
+  </div>
+  {% for p in site.pages %}
+  {% if p.section == "start-hw" %}
+    {% include content-link-panel.html %}
+  {% endif %}
+  {% endfor %}
+  <div class="col-sm-12">
+    <h2> Software customization </h2>
+  </div>
+  {% for p in site.pages %}
+  {% if p.section == "start-tips" %}
+    {% include content-link-panel.html %}
+  {% endif %}
+  {% endfor %}
+  <div class="col-sm-12">
+    <h2> Deployment </h2>
+  </div>
+  {% for p in site.pages %}
+  {% if p.section == "training-deploying" %}
+    {% include content-link-panel.html %}
+  {% endif %}
+  {% endfor %}
+  <div class="col-sm-12">
+    <h2> Documentation </h2>
+  </div>
+  {% for p in site.pages %}
+  {% if p.section == "training-docs" %}
+    {% include content-link-panel.html %}
+  {% endif %}
+  {% endfor %}
+</div>
+
+

@@ -18,19 +18,22 @@ help: ## This help message
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"
 
 
-bootstrap: ## Starting vagrant and run provision
+boot: ## Starting vagrant and run provision
 	vagrant up
 
-serve:
+serve: ## Connects to vagrant and starts serving the site
 	@echo "${yellow} => Starting to serve site on dev box ${reset}"
 	vagrant ssh -- "cd $(WEBSITE_DIR) && \
 	    jekyll serve --force_polling -H 0.0.0.0 --detach > /dev/null 2>&1 &"
 	@echo "${yellow} => Browse to http://127.0.0.1:4000 ${reset}"
 
-stop:
+stop: ## Will stop serving the site
 	@echo "${yellow} => Stopping to serve site on dev box ${reset}"
 	vagrant ssh -- "pkill -f jekyll"
 
+
+reload: stop serve
+
 #ToDo: connect to notify to get messages via notify, add echo with color
 
-.PHONY: serve stop
+.PHONY: serve stop reload
