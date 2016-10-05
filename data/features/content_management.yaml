@@ -1,0 +1,4 @@
+weight: 4
+name: "Content Management"
+icon: "fa fa-wrench fa-2x"
+description: "How to work with content and manage site settings in Plone."

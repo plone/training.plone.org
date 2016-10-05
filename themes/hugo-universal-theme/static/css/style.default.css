@@ -1117,7 +1117,7 @@ fieldset[disabled] .btn-template-primary.active {
 .owl-theme .owl-controls .owl-page.active span,
 .owl-carousel .owl-controls.clickable .owl-page:hover span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-  background: #38a7bb;
+  background: #0083BE;
 }
 .owl-carousel .owl-controls .owl-buttons,
 .owl-theme .owl-controls .owl-buttons {
@@ -1298,7 +1298,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 50px;
 }
 .testimonials .item .testimonial .bottom .icon {
-  color: #38a7bb;
+  color: #0083BE;
   font-size: 30px;
   float: left;
   width: 20%;
@@ -1756,8 +1756,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
-  border-top: solid 1px #999999;
-  border-bottom: solid 1px #999999;
+  /*border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;*/
 }
 .bar.background-gray {
   background: #eeeeee;
@@ -2505,7 +2505,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #555555;
+  background: #113156;
   padding: 50px 0;
   color: #999999;
 }
@@ -2601,7 +2601,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #38a7bb;
 }
 #copyright {
-  background: #333;
+  background: #1F1238;
   color: #ccc;
   padding: 50px 0;
   font-size: 12px;

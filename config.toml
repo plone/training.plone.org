@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Universal"
 theme = "hugo-universal-theme"
 
+[params]
+	copyright = "Plone and the Plone® logo are registered trademarks of the Plone Foundation."
+	logo = "img/logo.png"
+
 [params.testimonials]
     enable = true
     # All testimonials are defined in their own files. You can find example items
@@ -15,3 +19,6 @@ theme = "hugo-universal-theme"
     enable = true
 	title = "Plone Trainings"
 	subtitle = "Plone training events are a great way to expand your skills. Plus it's a great way to meet the community and have fun."
+
+[params.recent_posts]
+    enable = false
