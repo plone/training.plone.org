@@ -1,0 +1,12 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Universal"
+theme = "hugo-universal-theme"
+
+[params.testimonials]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Trainer"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied."
