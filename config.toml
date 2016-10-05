@@ -9,4 +9,9 @@ theme = "hugo-universal-theme"
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "Trainer"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied."
+    #subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied."
+
+[params.features]
+    enable = true
+	title = "Plone Trainings"
+	subtitle = "Plone training events are a great way to expand your skills. Plus it's a great way to meet the community and have fun."

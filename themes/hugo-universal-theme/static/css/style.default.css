@@ -99,7 +99,7 @@ div.section {
 .heading h4,
 .heading h5 {
   display: inline-block;
-  border-bottom: solid 5px #38a7bb;
+  border-bottom: solid 5px #0083BE;
   line-height: 1.1;
   margin-bottom: 0;
   padding-bottom: 10px;
@@ -1434,8 +1434,8 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 40px;
 }
 .box-simple .icon {
-  color: #38a7bb;
-  border-color: #38a7bb;
+  color: #0083BE;
+  border-color: #0083BE;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
