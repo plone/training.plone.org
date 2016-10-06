@@ -43,3 +43,8 @@ License
 -------
 
 The project is licensed under the GPLv2.
+
+
+.. image:: https://badges.gitter.im/plone/training.plone.org.svg
+   :alt: Join the chat at https://gitter.im/plone/training.plone.org
+   :target: https://gitter.im/plone/training.plone.org?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
