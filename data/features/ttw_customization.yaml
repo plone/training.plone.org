@@ -2,3 +2,4 @@ weight: 6
 name: "“Through-the-web” Plone customization"
 icon: "fa fa-desktop fa-2x"
 description: "Create custom content types, a design for a website, layouts for homepages and content types, and custom application logic. All in the browser!."
+link: "https://training.plone.org/5/"

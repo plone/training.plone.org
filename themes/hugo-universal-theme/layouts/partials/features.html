@@ -15,11 +15,11 @@
                 {{ range .Site.Data.features }}
                 <div class="col-md-4">
                     <div class="box-simple">
-                        <div class="icon">
-                            <i class="{{ .icon }}"></i>
+						<div class="icon">
+							<i class="{{ .icon }}"><a href="{{ .link }}"></a></i>
                         </div>
                         <h3>{{ .name }}</h3>
-                        <p>{{ .description }}</p>
+						<p>{{ .description }}</p>
                     </div>
                 </div>
                 {{ end }}
