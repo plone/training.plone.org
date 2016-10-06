@@ -545,7 +545,7 @@ body.boxed .navbar-affixed-top.affix {
   border-radius: 0;
 }
 .btn-template-main {
-  color: #38a7bb;
+  color: #ffffff;
   background-color: #ffffff;
   border-color: #38a7bb;
 }
@@ -3094,7 +3094,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #38a7bb;
+  background-color: #ffffff;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888888;
