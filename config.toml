@@ -18,7 +18,7 @@ theme = "hugo-universal-theme"
 [params.features]
     enable = true
 	title = "Plone Trainings"
-	subtitle = "Plone training events are a great way to expand your skills. Plus it's a great way to meet the community and have fun."
+	subtitle = "Plone training events are a great way to expand your skills. Plus it's a excellent way to meet the community."
 
 [params.recent_posts]
     enable = false

@@ -4,14 +4,16 @@ id = "about"
 +++
 
 
-## Plone Training is a collection of different trainings, developed and created by the Plone Community.
+## Plone Training is a collection of different trainings.
 
-### Contributing
+### Developed and created by the Plone Community.
+
+##### Contributing
 
 Everyone is **very welcome** to contribute. Minor bug fixes can be pushed directly in the [repository](https://github.com/plone/training), bigger changes should made as [pull-requests](https://github.com/plone/training/pulls/) and discussed previously in tickets.
 
 
-### License
+##### License
 
 The Mastering Plone Training is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
