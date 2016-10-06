@@ -9,6 +9,5 @@ Are you curious about something? Do you have questions?
 
 Please feel free to contact us!
 
-Mail:
+Mail: <training@plone.org>
 
-Community:
