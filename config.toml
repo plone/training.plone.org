@@ -22,3 +22,13 @@ theme = "hugo-universal-theme"
 
 [params.recent_posts]
     enable = false
+
+[[params.menu]]
+    name = "About"
+	url  = "/about/"
+	weight = 1
+
+[[params.menu]]
+    name = "Contact"
+	url  = "/contact/"
+	weight = 2
