@@ -40,4 +40,4 @@ Example
 
 For more information on possible hugo base settings, please read the `Hugo docs <https://gohugo.io/overview/configuration/>`_ on configuration.
 
-For more information on theme settings please read "theme settings"
+For more information on theme settings please read :doc:`theme_settings`.

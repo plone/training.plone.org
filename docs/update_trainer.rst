@@ -24,4 +24,4 @@ Example
 
 .. note:: This will be re-written in the future
 
-.. note:: Currently the is no special order, if you are not happy with your position you have to change the number of 'your' yaml file.
+.. note:: Currently there is no special order, if you are not happy with your position you have to change the number of 'your' yaml file.
