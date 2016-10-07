@@ -2,4 +2,4 @@ weight: 3
 name: "Deployment"
 icon: "fa fa-server fa-2x"
 description: "How to get you Plone site up and running."
-link: "https://training.plone.org/5/"
+link: "https://training.plone.org/5/deployment/index.html"
