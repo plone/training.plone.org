@@ -1,6 +1,8 @@
 training.plone.org
 ==================
 
+**NOTE:** Please **do not** commit straight to master, **ALWAYS** create a Pull Request !
+
 This is the landing page of `training.plone.org <https://training.plone.org>`_ a static website build with `Hugo <https://gohugo.io/>`_.
 
 If you are looking for the training manuals repository, please check https://github.com/plone/training.
