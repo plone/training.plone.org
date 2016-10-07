@@ -10,6 +10,7 @@ If you are looking for the training manuals repository, please check https://git
 Features
 --------
 
+- Based on the `Hugo Universal Theme <https://github.com/devcows/hugo-universal-theme>`_
 - Responsive design
 - Content written in Markdown
 - Various options as

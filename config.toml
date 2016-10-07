@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://training.plone.org/"
 languageCode = "en-us"
 title = "Plone Training - training.plone.org"
 theme = "hugo-universal-theme"
