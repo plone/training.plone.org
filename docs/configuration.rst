@@ -12,7 +12,7 @@ In this config file, you can include precise directions to Hugo regarding how it
 Example
 =======
 
-.. code-block::
+.. code-block:: ini
 
     baseurl = "https://training.plone.org/"
     languageCode = "en-us"

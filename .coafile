@@ -3,7 +3,7 @@ bears = SpaceConsistencyBear, LineLengthBear, InvalidLinkBear
 use_spaces = True
 files = docs/**/*.rst, README.rst
 ignore_length_regex = ^.*https?://
-max_line_length = 300
+max_line_length = 350
 
 [MAKEFILE]
 bears = LineLengthBear

@@ -13,4 +13,6 @@ This setup is **only** for the landing-page, if you're looking for the trainings
 
     configuration
     theme_settings
+    update_trainings
+    update_trainer
 
