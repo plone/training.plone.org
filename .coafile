@@ -5,6 +5,13 @@ files = docs/**/*.rst, README.rst
 ignore_length_regex = ^.*https?://
 max_line_length = 350
 
+[CONTENT]
+bears = YAMLLintBear, InvalidLinkBear, LineLengthBear
+use_spaces = True
+ignore_length_regex = ^.*https?://
+max_line_length = 150
+files = data/**/*.yaml
+
 [MAKEFILE]
 bears = LineLengthBear
 files = Makefile
