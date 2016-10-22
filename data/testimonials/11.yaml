@@ -1,4 +1,6 @@
-text: "Steve is the creator of PloneFormGen and maintainer of the Unified installer. Steve also wrote several chapters of Practical Plone and is an experienced speaker and instructor."
+---
+text: "Steve is the creator of PloneFormGen and maintainer of the Unified installer.
+    Steve also wrote several chapters of Practical Plone and is an experienced speaker and instructor."
 name: "Steve McMahon"
 position: "Steve is a long-time Plone contributor and trainer"
 avatar: "img/testimonials/stevem.jpg"

@@ -1,4 +1,6 @@
-text: "Paul is a long-time technology and open-source activist who has worked for a wide range of non-profits and other organizations. He is a combination sysadmin, programmer, and e-campaigner all at once. He started using Plone around 0.99beta, and has enjoyed the ride so far immensely."
+---
+text: "Paul is a long-time technology and open-source activist who has worked for a wide range of non-profits and other organizations.
+    He is a combination sysadmin, programmer, and e-campaigner all at once. He started using Plone around 0.99beta, and has enjoyed the ride so far immensely."
 name: "Paul Roeland"
 position: "Paul is president of the Plone Foundation Board"
 avatar: "img/testimonials/proeland.jpg"
