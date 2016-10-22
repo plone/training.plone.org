@@ -1,10 +1,24 @@
-sudo: required
+# we only want the master branch
+branches:
+  only:
+    - master
 
-services:
-  - docker
+sudo: false
+language: python
+python:
+   - '3'
+install:
+   - pip install coala-bears --pre
 
-before_install:
-  - docker pull coala/base
+
+
+# sudo: required
+
+# services:
+#   - docker
+
+# before_install:
+#   - docker pull coala/base
 
 script:
   - coala-ci CONTENT
