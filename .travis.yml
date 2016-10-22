@@ -8,4 +8,5 @@ before_install:
 
 script:
   - coala-ci CONTENT
+  - coala-ci DOCS
 
