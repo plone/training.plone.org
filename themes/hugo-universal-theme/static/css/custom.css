@@ -1,5 +1,10 @@
 /* your styles go here */
 
+/* fix testimonials, job title cropped at the bottom */
+.testimonials .item {
+    padding-bottom: 100px;
+}
+
 .box-image-text .image {
   min-height: 200px;
   max-height: 200px;
