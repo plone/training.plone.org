@@ -4,6 +4,9 @@ Changelog
 1.0a2 - Unreleased
 -------------------
 
+- Add js, workflow and angular traninings. Fix links to moved traninings.
+  [pbauer]
+
 - Add: Added Changeslog File
   [macagua]
 
