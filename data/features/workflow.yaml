@@ -1,0 +1,5 @@
+weight: 8
+name: "Plone Workflow"
+icon: "fa fa-code-fork fa-2x"
+description: "Controlling security and business-logic with workflows."
+link: "https://training.plone.org/5/workflow/index.html"
