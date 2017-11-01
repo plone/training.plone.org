@@ -14,6 +14,9 @@ Changelog
 - Add: Added macagua like a Plone Trainer
   [macagua]
 
+- Add: tmassman as Plone trainer.
+  [tmassman]
+
 
 1.0a1 - (2016-10-18)
 --------------------
