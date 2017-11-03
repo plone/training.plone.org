@@ -17,6 +17,9 @@ Changelog
 - Add: tmassman as Plone trainer.
   [tmassman]
 
+- Fix order of trainers.
+  [tmassman]
+
 
 1.0a1 - (2016-10-18)
 --------------------
