@@ -6,3 +6,4 @@ _site
 .vagrant
 .jekyll-metadata
 docs/_build
+public/
