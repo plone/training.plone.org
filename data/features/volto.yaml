@@ -1,0 +1,5 @@
+weight: 9
+name: "Volto"
+icon: "fa fa-fire fa-2x"
+description: "Create your own site using Volto."
+link: "https://training.plone.org/5/volto/index.html"
