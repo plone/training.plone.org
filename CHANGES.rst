@@ -20,6 +20,9 @@ Changelog
 - Fix order of trainers.
   [tmassman]
 
+- Added React and Volto trainings.
+  [robgietema]
+
 
 1.0a1 - (2016-10-18)
 --------------------

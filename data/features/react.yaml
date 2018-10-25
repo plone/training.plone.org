@@ -1,0 +1,5 @@
+weight: 9
+name: "React"
+icon: "fa fa-asterisk fa-2x"
+description: "Get started with React & friends."
+link: "https://training.plone.org/5/react/index.html"
