@@ -23,6 +23,9 @@ Changelog
 - Added React and Volto trainings.
   [robgietema]
 
+- Added GastbyJS training.
+  [pbauer]
+
 
 1.0a1 - (2016-10-18)
 --------------------
