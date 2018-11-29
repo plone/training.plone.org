@@ -1,0 +1,5 @@
+weight: 12
+name: "Transmogrifier"
+icon: "fa fa-recycle fa-2x"
+description: "Migrating your site's content into a new Plone site."
+link: "https://training.plone.org/5/transmogrifier/index.html"
