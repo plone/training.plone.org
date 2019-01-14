@@ -1,0 +1,5 @@
+weight: 9
+name: "GatsbyJS"
+icon: "fa fa-rocket fa-2x"
+description: "Building blazing-fast static websites with GatsbyJS."
+link: "https://training.plone.org/5/gatsby/index.html"
