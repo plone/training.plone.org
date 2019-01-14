@@ -3,6 +3,10 @@ Changelog
 
 1.0a2 - Unreleased
 -------------------
+
+- Add link to transmogrifier, update my bio
+  [cdw9]
+
 - Add link to Oz's training [oz123]
 
 - Add js, workflow and angular traninings. Fix links to moved traninings.
