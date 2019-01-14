@@ -4,6 +4,9 @@ Changelog
 1.0a2 - Unreleased
 -------------------
 
+- Fix link, update my bio
+  [pbauer]
+
 - Add link to transmogrifier, update my bio
   [cdw9]
 
