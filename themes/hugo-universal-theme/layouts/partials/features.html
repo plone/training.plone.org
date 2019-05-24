@@ -12,8 +12,8 @@
                   {{ .Site.Params.features.subtitle }}
                 </p>
             <div class="row">
-                {{ range .Site.Data.features }}
-                <div class="col-md-4">
+                {{ range sort .Site.Data.features "weight" }}
+                <div class="col-md-4" data-weight="{{ .weight }}">
                     <div class="box-simple">
 						<div class="icon">
 							<a href="{{ .link }}"><i class="{{ .icon }}"></i></a>
