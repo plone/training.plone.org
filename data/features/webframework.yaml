@@ -1,4 +1,4 @@
-weight: 8
+weight: 110
 name: "Building a webframework from scratch"
 icon: "fa fa-scissors fa-2x"
 description: "Build your own micro web framework in Python. It will help you to fundementally understand how common Python web frameworks work."

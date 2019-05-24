@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 10
 name: "Content Management"
 icon: "fa fa-pencil fa-2x"
 description: "How to work with content and manage site settings in Plone."
