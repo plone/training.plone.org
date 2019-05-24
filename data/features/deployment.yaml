@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 40
 name: "Deployment"
 icon: "fa fa-server fa-2x"
 description: "How to get you Plone site up and running."

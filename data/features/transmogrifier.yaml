@@ -1,4 +1,4 @@
-weight: 12
+weight: 120
 name: "Transmogrifier"
 icon: "fa fa-recycle fa-2x"
 description: "Migrating your site's content into a new Plone site."

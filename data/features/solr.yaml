@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 130
 name: "Solr Integration"
 icon: "fa fa-search-plus fa-2x"
 description: "How to add enterprise grade search to your Plone site."
