@@ -11,7 +11,7 @@
 }
 
 .box-simple {
-  min-height: 230px;
+  min-height: 245px;
 }
 .topbar{
 font-size: 11px;
@@ -21,7 +21,7 @@ background: #1f1238;
 width: 100%;
 overflow: hidden;
 border-bottom: 1px solid black;
-}          
+}
 .topcontainer{
 margin-right: auto;
 margin-left: auto;
