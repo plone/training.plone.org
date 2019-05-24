@@ -4,6 +4,10 @@ Changelog
 1.0a2 - Unreleased
 -------------------
 
+- Fix CSS min-height for 3-line description. [jensens]
+
+- Fix: use weight as sort value and set menaingful weights. [jensens]
+
 - Fix non-clickable title. [jensens]
 
 - Fix link, update my bio
