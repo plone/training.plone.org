@@ -39,6 +39,8 @@ i
 - Added GastbyJS training.
   [pbauer]
 
+- Added Volto Hands-On training.
+  [sneridagh]
 
 1.0a1 - (2016-10-18)
 --------------------
