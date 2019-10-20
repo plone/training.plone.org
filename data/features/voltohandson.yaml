@@ -1,0 +1,5 @@
+weight: 80
+name: "Volto Hands-On"
+icon: "fa fa-laptop fa-2x"
+description: "Practice your skills to recreate plone.com site in Volto."
+link: "https://training.plone.org/5/voltohandson/index.html"
