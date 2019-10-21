@@ -42,6 +42,9 @@ i
 - Added Volto Hands-On training.
   [sneridagh]
 
+- Add testing training
+  [polyester]
+
 1.0a1 - (2016-10-18)
 --------------------
 

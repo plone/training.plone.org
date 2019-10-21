@@ -1,0 +1,5 @@
+weight: 80
+name: "Testing Plone addons"
+icon: "fa fa-stethoscope fa-2x"
+description: "Best practices for testing Plone addons."
+link: "https://training.plone.org/5/testing/index.html"
