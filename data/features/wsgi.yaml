@@ -1,0 +1,6 @@
+---
+weight: 41
+name: "WSGI Deployment"
+icon: "fa fa-concierge-bell fa-2x"
+description: "Deploying and Operating Plone on WSGI"
+link: "https://training.plone.org/5/wsgi/index.html"
