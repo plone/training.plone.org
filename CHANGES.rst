@@ -41,6 +41,12 @@ i
 
 - Added Volto Hands-On training.
   [sneridagh]
+  
+- tweak Volto Hands-On description. 
+  [tkimnguyen]
+  
+- Added Testing Plone training
+  [tkimnguyen]
 
 1.0a1 - (2016-10-18)
 --------------------
