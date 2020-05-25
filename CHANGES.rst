@@ -16,7 +16,7 @@ Changelog
 
 - Fix link, update my bio
   [pbauer]
-i
+
 - Add link to transmogrifier, update my bio
   [cdw9]
 
