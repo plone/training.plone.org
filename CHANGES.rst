@@ -31,11 +31,11 @@ i
 - Add: Added macagua like a Plone Trainer
   [macagua]
 
-- Add: tmassman as Plone trainer.
-  [tmassman]
+- Add: thomasmassmann as Plone trainer.
+  [thomasmassmann]
 
 - Fix order of trainers.
-  [tmassman]
+  [thomasmassmann]
 
 - Added React and Volto trainings.
   [robgietema]
