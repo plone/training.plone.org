@@ -11,6 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Run quality tests with ttd.coala
+      # - name: Run quality tests with ttd.coala
+      #   run: |
+      #     docker run -it --rm -v "${PWD}":/source:rw testthedocs/ttd.coala:1 '-c=/source/.coafile' CONTENT
+
+      - name: Build documentation
         run: |
-          docker run -it --rm -v "${PWD}":/source:rw testthedocs/ttd.coala:1 '-c=/source/.coafile' CONTENT
+          make build
