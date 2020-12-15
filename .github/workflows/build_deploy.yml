@@ -28,7 +28,7 @@ jobs:
           flags: '-avzr --delete'
           options: ''
           ssh_options: '-p ${{secrets.DEPLOY_PORT}}'
-          src: '_build/html/'
+          src: 'public/'
           dest: '${{secrets.DEPLOY_USER_TRAINING}}@${{secrets.DEPLOY_SERVER_TRAINING}}:${{secrets.DEPLOY_PATH_TRAINING}}/public'
 
       - name: Display status from deploy
