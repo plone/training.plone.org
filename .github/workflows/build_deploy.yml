@@ -1,0 +1,35 @@
+name: Build and deploy training.plone.org homepage
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Run quality tests with ttd.coala
+        run: |
+          docker run -i --rm -v "${PWD}":/source:rw testthedocs/ttd.coala:1 '-c=/source/.coafile' CONTENT
+
+      - name: Build documentation
+        run: |
+          make build
+
+      - name: Deploy to server
+        id: deploy
+        uses: Pendect/action-rsyncer@v1.1.0
+        env:
+          DEPLOY_KEY: ${{secrets.DEPLOY_KEY_TRAINING}}
+        with:
+          flags: '-avzr --delete'
+          options: ''
+          ssh_options: '-p ${{secrets.DEPLOY_PORT}}'
+          src: '_build/html/'
+          dest: '${{secrets.DEPLOY_USER_TRAINING}}@${{secrets.DEPLOY_SERVER_TRAINING}}:${{secrets.DEPLOY_PATH_TRAINING}}/public'
+
+      - name: Display status from deploy
+        run: echo "${{ steps.deploy.outputs.status }}"
