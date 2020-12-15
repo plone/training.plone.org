@@ -1,0 +1,16 @@
+name: Test training homepage
+
+on:
+  push:
+    branches-ignore:
+      - 'master'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Run quality tests with ttd.coala
+        run: |
+          docker run -it --rm -v "${PWD}":/source:rw testthedocs/ttd.coala:1 '-c=/source/.coafile' CONTENT
