@@ -1,4 +1,4 @@
-name: Test training homepage
+name: Test training.plone.org homepage
 
 on:
   push:
