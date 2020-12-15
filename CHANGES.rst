@@ -45,12 +45,15 @@ Changelog
 
 - Added Volto Hands-On training.
   [sneridagh]
-  
-- tweak Volto Hands-On description. 
+
+- tweak Volto Hands-On description.
   [tkimnguyen]
-  
+
 - Added Testing Plone training
   [tkimnguyen]
+
+- Use GitHub actions instead of TravisCI.
+  [ericof]
 
 1.0a1 - (2016-10-18)
 --------------------
