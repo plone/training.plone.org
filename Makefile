@@ -7,7 +7,7 @@ RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
 
-HUGO = docker run -u "$(shell id -u):$(shell id -g)" -it --rm -v `pwd`:/src -p 1313:1313 quay.io/tiramisu/mr.hugo
+HUGO = docker run -u "$(shell id -u):$(shell id -g)" -i --rm -v `pwd`:/src -p 1313:1313 quay.io/tiramisu/mr.hugo
 
 # Add the following 'help' target to your Makefile
 # # And add help text after each target name starting with '\#\#'
