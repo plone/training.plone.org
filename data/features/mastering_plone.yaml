@@ -1,4 +1,4 @@
-weight: 50
+weight: 10
 name: "Mastering Plone 6 Development"
 icon: "fa fa-code fa-2x"
 description: "Learn the best practices of Plone development for frontend and backend using Volto as well as Plone Classic."

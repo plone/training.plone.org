@@ -1,5 +1,5 @@
 ---
-weight: 41
+weight: 110
 name: "WSGI Deployment"
 icon: "fa fa-concierge-bell fa-2x"
 description: "Deploying and Operating Plone on WSGI"

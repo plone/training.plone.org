@@ -1,6 +1,6 @@
 ---
-weight:  30
-name: "Theming"
+weight: 20
+name: "Theming in Plone 6 Classic"
 icon: " fa fa-paint-brush fa-2x "
 description: "How to style your Plone site."
 link: "https://training.plone.org/5/theming/index.html"

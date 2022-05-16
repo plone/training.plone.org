@@ -1,5 +1,0 @@
-weight: 100
-name: "Building Angular 4 apps using the Plone REST API"
-icon: "fa fa-flash fa-2x"
-description: "Create a static site with Angular and display contents stored in Plone and retrieved using the REST API."
-link: "https://training.plone.org/5/angular/index.html"

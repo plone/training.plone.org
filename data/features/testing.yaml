@@ -1,4 +1,4 @@
-weight: 80
+weight: 70
 name: "Testing Plone"
 icon: "fa fa-stethoscope fa-2x"
 description: "Learn best practices for testing Plone addons."
