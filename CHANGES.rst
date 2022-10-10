@@ -4,6 +4,8 @@ Changelog
 1.0a2 - Unreleased
 -------------------
 
+- Add Effective Volto item in the homepage [sneridagh]
+
 - Upgrade to font-awesome 5.11.2 [polyester]
 
 - Add WSGI training to front page [tschorr]
