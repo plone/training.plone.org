@@ -1,0 +1,6 @@
+---
+weight: 60
+name: "Effective Volto"
+icon: "fa fa-user-ninja fa-2x"
+description: "Best practices, tools and tips while developing your Plone 6 Volto project."
+link: "https://training.plone.org/5/effective-volto/index.html"
