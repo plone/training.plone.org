@@ -1,6 +1,16 @@
 training.plone.org
 ==================
 
+IMPORTANT
+---------
+
+As of PloneConf 2022, this repository is no longer in use.
+It is read-only and has been archived.
+
+
+Introduction
+------------
+
 **NOTE:** Please **do not** commit straight to master, **ALWAYS** create a Pull Request !
 
 This is the landing page of `training.plone.org <https://training.plone.org>`_ a static website build with `Hugo <https://gohugo.io/>`_.
